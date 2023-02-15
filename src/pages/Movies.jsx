@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import { Link } from "react-router-dom";
-import { BsFillFileEarmarkTextFill} from "react-icons/bs";
+import {BsFillFileEarmarkTextFill} from "react-icons/bs";
 import {TbMessageLanguage} from "react-icons/tb"
 import {BiMoviePlay} from "react-icons/bi"
 import {MdTitle} from "react-icons/md"
