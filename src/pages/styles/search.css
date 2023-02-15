@@ -1,0 +1,131 @@
+.searchBox{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.searchBox::-webkit-scrollbar{
+  width: 8px;
+  background-color: aqua;
+  z-index: 4;
+}
+.searchBox::-webkit-scrollbar-thumb{
+   background-color: aqua;
+   width: 8px;
+}
+
+.title{
+    width: 90%;
+    margin-bottom: 2rem;
+}
+span{
+    color: rgb(102, 102, 0);
+    text-transform: capitalize;
+    margin-left: 1rem;
+}
+.link{
+    text-decoration: none;
+    color: black;
+    width: 90%;
+    margin-left: 7rem;
+    font-size: 2rem;
+    text-align: left;
+}
+.link:hover{ 
+    cursor: pointer;
+    transition: .5s;
+     color: rgb(129, 112, 16);
+}
+
+.Card{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    gap: 1rem;
+}
+
+
+@media screen and (max-width:1300px){
+    .Card{
+        margin: 1rem;
+        padding: .2rem;
+        display: grid;
+        justify-content: center;
+        grid-template-columns: auto auto auto auto;
+       
+    }
+}
+
+@media screen and (max-width:1100px){
+    .Card{
+       
+        grid-template-columns: auto auto auto;
+       
+    }
+}
+@media screen and (max-width:800px){
+    .Card{
+       
+        grid-template-columns: auto auto;
+       
+    }
+}
+
+@media screen and (max-width:570px){
+    .Card{
+        
+       
+        grid-template-columns:auto;
+       
+    }
+    .title{
+        display: flex;
+        flex-direction: column;
+        margin: 1rem;
+    }
+    .link{
+        text-decoration: none;
+        color: black;
+        width: 80%;
+        margin-left: 4rem;
+        font-size: 1.2rem;
+        text-align: left;
+    }
+}
+
+@media screen and (max-height:480px) and (min-width:500px) {
+    .Card{
+       
+        grid-template-columns:auto auto auto;
+       
+    }
+    .title{
+        display: flex;
+        flex-direction: column;
+        margin: 1rem;
+    }
+    .link{
+        text-decoration: none;
+        color: black;
+        width: 80%;
+        margin-left: 4rem;
+        font-size: 1.3rem;
+        text-align: left;
+    }
+}
+
+@media screen and (max-height:480px) and (min-width:800px) {
+    .Card{
+       grid-template-columns:auto auto auto auto; 
+    }
+    
+}
+
+@media screen and (max-height:480px) and (min-width:1200px) {
+    .Card{
+       
+        grid-template-columns:auto auto auto auto auto auto;
+       
+    }
+}

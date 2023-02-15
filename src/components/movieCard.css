@@ -1,0 +1,113 @@
+
+.unid{
+    width: 15rem;
+    height: 22.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 5px solid black;
+    box-sizing: border-box;
+    background-color: black;
+    overflow: hidden;
+    color: azure;
+   
+
+}
+
+.title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 15rem;
+    height: 4rem;
+   
+}
+.title h2{
+    font-size: 1.1rem;
+}
+.image{
+    margin-top: -1.5rem;
+    width: 14.5rem;
+    height: 16rem;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+img{
+    width: 14.5rem;
+    height: 15rem;
+}
+.Btn{
+    box-sizing: border-box;
+    overflow:hidden;
+    width: 14.5rem;
+    height: 2rem;
+}
+.Btn button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 14.5rem;
+    background-color: rgb(255, 255, 0);
+    border: 2px solid rgb(226, 226, 226);
+    border-radius: 2px;
+}
+.Btn button:hover{
+    cursor: pointer;
+    background-color: gold;
+
+}
+.Btn button a{
+    text-decoration: none;
+    text-transform: capitalize;
+    color:rgb(47, 51, 51);
+    background-color: yellow;
+    padding: 0rem 5.3rem;
+   
+}
+.Btn button a:hover{
+    cursor: pointer;
+    background-color: gold;
+    
+
+}
+
+@media screen and (max-height:480px) {
+    .unid{
+        width: 10.5rem;
+        height:12.5rem;   
+    }
+    .title{ 
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 8rem;
+        height: 2.5rem;
+        
+    
+    }
+    .title h2{
+        margin-top: -1.5rem;
+        font-size: .8rem;
+    }
+    .image{
+        width: 10rem;
+        height: 8rem;
+    }
+    img{
+        width: 10rem;
+        height: 7rem;
+    }
+    .Btn{
+        width: 10rem;
+        height: 1.5rem;
+    }
+    .Btn button{
+        width: 10rem;
+        height: 1.5rem;
+    }
+    .Btn button a{
+        padding: 0rem 3rem;
+    }
+    
+}
